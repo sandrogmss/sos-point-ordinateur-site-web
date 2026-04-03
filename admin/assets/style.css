@@ -1,0 +1,131 @@
+body {
+    font-family: Arial;
+    background: #eef1f5;
+    margin: 0;
+}
+
+/* HEADER */
+.admin-header {
+    background: white;
+    padding: 15px;
+    border-bottom: 3px solid #c62828;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-header a {
+    color: #c62828;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* CONTAINER */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+/* CARD */
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card-title {
+    background: #c62828;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+tr:hover {
+    background: #f9f9f9;
+}
+
+/* BADGES */
+.badge {
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.badge-red {
+    background: #ffcdd2;
+    color: #c62828;
+}
+
+.badge-green {
+    background: #c8e6c9;
+    color: #2e7d32;
+}
+
+/* BOUTONS */
+.btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.btn-view {
+    background: #1976d2;
+    color: white;
+}
+
+.btn-delete {
+    background: #c62828;
+    color: white;
+}
+
+/* LOGIN */
+.login-box {
+    width: 300px;
+    margin: 100px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+.login-box button {
+    padding: 8px 12px;
+    background: #c62828;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background: #a61c1c;
+}
+
+.error {
+    color: red;
+}
